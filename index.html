@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular média em js</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var media, n1, n2, n3;
+        
+        n1= prompt ("Avalição do site: ") ;
+        n1= eval (n1) ;
+        
+        n2= prompt ("Acesso às informações: ") ;
+        n2= eval (n2) ; 
+        
+        n3= prompt ("Segurança do site: ") ; 
+        n3= eval (n3) ;
+
+        
+
+        media = (n1 + n2 + n3)/3; 
+        
+        if ( media >= 6 ) {
+        document.write ("Gostei");
+        
+        } else {
+        
+        if ( media <= 5 ) {
+        document.write ("Não gostei");
+        
+        } else {
+        
+        document.write ("Indiferente");
+        }}
+        
+        </script> 
+</body>
+</html>
